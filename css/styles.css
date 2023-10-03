@@ -698,11 +698,11 @@ a {
 }
 
 .modal-form-conferm {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   margin-bottom: 24px;
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 /* .modal-form-checkbox {
@@ -710,13 +710,14 @@ a {
 } */
 
 .modal-custom-checkbox {
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid var(--backdrop-bg);
